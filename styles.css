@@ -100,22 +100,19 @@ nav ul li a {
 }
 
 .box-container {
-    position: absolute;
-    width: 100%;
-    max-width: 1440px;
-    height: 100vh;
-    display: flex;
-    z-index: -1;
-    justify-content: center;
-    align-items: center;
+    position: flex;
     flex-flow: wrap;
+    justify-content: center;
+    margin: 5px 0;
+    z-index: -1;
 }
 
 .box {
+    flex: 3;
+    border: 1px solid #666;
     padding: 15px;
-    min-height: auto;
 }
 
-.box1 {
+.box1 .box2 .box3 {
     border-radius: 15px;
 }
